@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6156C71AC285F85F0FA22D8D /* Pods_RNHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA2B134D47FA1CEB54A0ABF /* Pods_RNHybrid.framework */; };
+		993DFC2923F973DB009E4EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993DFC2823F973DB009E4EEA /* AppDelegate.swift */; };
+		993DFC2D23F973DB009E4EEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993DFC2C23F973DB009E4EEA /* ViewController.swift */; };
+		993DFC3223F973DD009E4EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993DFC3123F973DD009E4EEA /* Assets.xcassets */; };
+		993DFC3523F973DD009E4EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993DFC3323F973DD009E4EEA /* LaunchScreen.storyboard */; };
+		998FFEBB23F9807800B13341 /* RNBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998FFEBA23F9807800B13341 /* RNBaseViewController.swift */; };
+		999B68832403C57A0052355C /* RNGlobalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999B68822403C5790052355C /* RNGlobalModel.swift */; };
+		99FD14B224050ED50066578A /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD14B124050ED50066578A /* TabbarViewController.swift */; };
+		99FD14B4240511FD0066578A /* RNRTModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD14B3240511FD0066578A /* RNRTModule.swift */; };
+		99FD14BE24052BAC0066578A /* RNRTModuleBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FD14BD24052BAC0066578A /* RNRTModuleBridge.m */; };
+		99FD14C4240545FD0066578A /* NativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD14C3240545FD0066578A /* NativeViewController.swift */; };
+		99FD14C724056D530066578A /* RNNetWorkModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD14C624056D530066578A /* RNNetWorkModule.swift */; };
+		99FD14CA24056D6E0066578A /* RMNetWorkModuleBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FD14C924056D6E0066578A /* RMNetWorkModuleBridge.m */; };
+		99FD14CD240627A50066578A /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 99FD14CC240627A50066578A /* main.jsbundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		493E85D7316D0B7D17C6DD4C /* Pods-RNHybrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHybrid.debug.xcconfig"; path = "Target Support Files/Pods-RNHybrid/Pods-RNHybrid.debug.xcconfig"; sourceTree = "<group>"; };
+		993DFC2523F973DB009E4EEA /* RNHybrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNHybrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		993DFC2823F973DB009E4EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		993DFC2C23F973DB009E4EEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		993DFC3123F973DD009E4EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		993DFC3423F973DD009E4EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		993DFC3623F973DD009E4EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		998FFEBA23F9807800B13341 /* RNBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBaseViewController.swift; sourceTree = "<group>"; };
+		999B68822403C5790052355C /* RNGlobalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNGlobalModel.swift; sourceTree = "<group>"; };
+		99FD14B124050ED50066578A /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		99FD14B3240511FD0066578A /* RNRTModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNRTModule.swift; sourceTree = "<group>"; };
+		99FD14B52405122A0066578A /* RNHybrid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNHybrid-Bridging-Header.h"; sourceTree = "<group>"; };
+		99FD14BC24052BAC0066578A /* RNRTModuleBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNRTModuleBridge.h; sourceTree = "<group>"; };
+		99FD14BD24052BAC0066578A /* RNRTModuleBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNRTModuleBridge.m; sourceTree = "<group>"; };
+		99FD14C3240545FD0066578A /* NativeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeViewController.swift; sourceTree = "<group>"; };
+		99FD14C624056D530066578A /* RNNetWorkModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNNetWorkModule.swift; sourceTree = "<group>"; };
+		99FD14C824056D6E0066578A /* RMNetWorkModuleBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMNetWorkModuleBridge.h; sourceTree = "<group>"; };
+		99FD14C924056D6E0066578A /* RMNetWorkModuleBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMNetWorkModuleBridge.m; sourceTree = "<group>"; };
+		99FD14CC240627A50066578A /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = SOURCE_ROOT; };
+		BEA2B134D47FA1CEB54A0ABF /* Pods_RNHybrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNHybrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9E0F3245FA4E95749934C3 /* Pods-RNHybrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHybrid.release.xcconfig"; path = "Target Support Files/Pods-RNHybrid/Pods-RNHybrid.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		993DFC2223F973DB009E4EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6156C71AC285F85F0FA22D8D /* Pods_RNHybrid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74AD11B7F27F7A21E869BC2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				493E85D7316D0B7D17C6DD4C /* Pods-RNHybrid.debug.xcconfig */,
+				CF9E0F3245FA4E95749934C3 /* Pods-RNHybrid.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8EC423D02CF32A9C320DEEAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEA2B134D47FA1CEB54A0ABF /* Pods_RNHybrid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		993DFC1C23F973DB009E4EEA = {
+			isa = PBXGroup;
+			children = (
+				993DFC2723F973DB009E4EEA /* RNHybrid */,
+				993DFC2623F973DB009E4EEA /* Products */,
+				74AD11B7F27F7A21E869BC2C /* Pods */,
+				8EC423D02CF32A9C320DEEAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		993DFC2623F973DB009E4EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				993DFC2523F973DB009E4EEA /* RNHybrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		993DFC2723F973DB009E4EEA /* RNHybrid */ = {
+			isa = PBXGroup;
+			children = (
+				99FD14CC240627A50066578A /* main.jsbundle */,
+				99FD14AF24050EA40066578A /* Modules */,
+				99FD14AE2404E5FF0066578A /* RNBridge */,
+				999B68812403C4D10052355C /* Base */,
+				993DFC2823F973DB009E4EEA /* AppDelegate.swift */,
+				993DFC3123F973DD009E4EEA /* Assets.xcassets */,
+				993DFC3323F973DD009E4EEA /* LaunchScreen.storyboard */,
+				993DFC3623F973DD009E4EEA /* Info.plist */,
+			);
+			path = RNHybrid;
+			sourceTree = "<group>";
+		};
+		999B68812403C4D10052355C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				998FFEBA23F9807800B13341 /* RNBaseViewController.swift */,
+				999B68822403C5790052355C /* RNGlobalModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		99FD14AE2404E5FF0066578A /* RNBridge */ = {
+			isa = PBXGroup;
+			children = (
+				99FD14CB24056D740066578A /* Route */,
+				99FD14C524056D390066578A /* NetWork */,
+				99FD14B52405122A0066578A /* RNHybrid-Bridging-Header.h */,
+			);
+			path = RNBridge;
+			sourceTree = "<group>";
+		};
+		99FD14AF24050EA40066578A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				99FD14BF240545C70066578A /* ViewControlles */,
+				99FD14B024050EAB0066578A /* Tabbar */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		99FD14B024050EAB0066578A /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				99FD14B124050ED50066578A /* TabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		99FD14BF240545C70066578A /* ViewControlles */ = {
+			isa = PBXGroup;
+			children = (
+				993DFC2C23F973DB009E4EEA /* ViewController.swift */,
+				99FD14C3240545FD0066578A /* NativeViewController.swift */,
+			);
+			path = ViewControlles;
+			sourceTree = "<group>";
+		};
+		99FD14C524056D390066578A /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				99FD14C624056D530066578A /* RNNetWorkModule.swift */,
+				99FD14C824056D6E0066578A /* RMNetWorkModuleBridge.h */,
+				99FD14C924056D6E0066578A /* RMNetWorkModuleBridge.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		99FD14CB24056D740066578A /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				99FD14B3240511FD0066578A /* RNRTModule.swift */,
+				99FD14BC24052BAC0066578A /* RNRTModuleBridge.h */,
+				99FD14BD24052BAC0066578A /* RNRTModuleBridge.m */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		993DFC2423F973DB009E4EEA /* RNHybrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993DFC3923F973DD009E4EEA /* Build configuration list for PBXNativeTarget "RNHybrid" */;
+			buildPhases = (
+				C6683CE38D727148E965002C /* [CP] Check Pods Manifest.lock */,
+				993DFC2123F973DB009E4EEA /* Sources */,
+				993DFC2223F973DB009E4EEA /* Frameworks */,
+				993DFC2323F973DB009E4EEA /* Resources */,
+				3B41944D85ECA2FA58713D0B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNHybrid;
+			productName = RNHybrid;
+			productReference = 993DFC2523F973DB009E4EEA /* RNHybrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		993DFC1D23F973DB009E4EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = bw;
+				TargetAttributes = {
+					993DFC2423F973DB009E4EEA = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 993DFC2023F973DB009E4EEA /* Build configuration list for PBXProject "RNHybrid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 993DFC1C23F973DB009E4EEA;
+			productRefGroup = 993DFC2623F973DB009E4EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				993DFC2423F973DB009E4EEA /* RNHybrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		993DFC2323F973DB009E4EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FD14CD240627A50066578A /* main.jsbundle in Resources */,
+				993DFC3523F973DD009E4EEA /* LaunchScreen.storyboard in Resources */,
+				993DFC3223F973DD009E4EEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B41944D85ECA2FA58713D0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNHybrid/Pods-RNHybrid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNHybrid/Pods-RNHybrid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNHybrid/Pods-RNHybrid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6683CE38D727148E965002C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNHybrid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		993DFC2123F973DB009E4EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993DFC2D23F973DB009E4EEA /* ViewController.swift in Sources */,
+				993DFC2923F973DB009E4EEA /* AppDelegate.swift in Sources */,
+				99FD14C724056D530066578A /* RNNetWorkModule.swift in Sources */,
+				99FD14BE24052BAC0066578A /* RNRTModuleBridge.m in Sources */,
+				99FD14C4240545FD0066578A /* NativeViewController.swift in Sources */,
+				998FFEBB23F9807800B13341 /* RNBaseViewController.swift in Sources */,
+				99FD14CA24056D6E0066578A /* RMNetWorkModuleBridge.m in Sources */,
+				99FD14B4240511FD0066578A /* RNRTModule.swift in Sources */,
+				99FD14B224050ED50066578A /* TabbarViewController.swift in Sources */,
+				999B68832403C57A0052355C /* RNGlobalModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		993DFC3323F973DD009E4EEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				993DFC3423F973DD009E4EEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		993DFC3723F973DD009E4EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		993DFC3823F973DD009E4EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		993DFC3A23F973DD009E4EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493E85D7316D0B7D17C6DD4C /* Pods-RNHybrid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59C3A46F42;
+				INFOPLIST_FILE = RNHybrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bw.RNHybrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNHybrid/RNBridge/RNHybrid-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		993DFC3B23F973DD009E4EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF9E0F3245FA4E95749934C3 /* Pods-RNHybrid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59C3A46F42;
+				INFOPLIST_FILE = RNHybrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bw.RNHybrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNHybrid/RNBridge/RNHybrid-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		993DFC2023F973DB009E4EEA /* Build configuration list for PBXProject "RNHybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993DFC3723F973DD009E4EEA /* Debug */,
+				993DFC3823F973DD009E4EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993DFC3923F973DD009E4EEA /* Build configuration list for PBXNativeTarget "RNHybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993DFC3A23F973DD009E4EEA /* Debug */,
+				993DFC3B23F973DD009E4EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 993DFC1D23F973DB009E4EEA /* Project object */;
+}

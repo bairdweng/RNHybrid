@@ -82,3 +82,7 @@
           }
       }
   ```
+
+  ## 记录打包一个坑
+
+  > react-native bundle --entry-file index.js --dev false 正式环境打包需要设置成 --dev false，否则会闪退
